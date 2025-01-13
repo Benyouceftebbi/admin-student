@@ -3,7 +3,9 @@ import { useData } from "../contexts/fetchDataContext";
 // Create a function to fetch `levelData` dynamically
 export const levelData = () => {
   const { egroup } = useData(); // Retrieve `egroup` from context
-  return egroup;
+  console.log("qwedqweqweqwe");
+  
+  return egroup; 
 };
 
 
